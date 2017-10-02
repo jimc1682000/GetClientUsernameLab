@@ -1,0 +1,5 @@
+<window title="GetClientUsername" border="normal" width="200px"
+	viewModel="@id('vm') @init('tw.jimmy.lab.GetClientUsername')">
+	<label value="username: " />
+	<label value="@load(vm.username)" />
+</window>
